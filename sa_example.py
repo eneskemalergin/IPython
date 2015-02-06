@@ -50,7 +50,8 @@ class Character(Base):
     def __repr__(self):
         """"""
         return "<Character('%s')>" % self.fullname
-    
+
+# Comment
 Base.metadata.create_all(engine) 
 Session = sessionmaker(bind=engine)
 session = Session()
