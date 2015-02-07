@@ -1,2 +1,2 @@
 # IPython
-This repo contains Ipyhton materials
+This repo contains IPython materials
